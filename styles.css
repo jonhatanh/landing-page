@@ -4,7 +4,7 @@
     --main-text: #F9FAF8;
     --secondary-text: #E5E7EB;
     --button-color: #3882F6;
-    --info-header-text: #1F2937
+    --info-header-text: #1F2937;
 }
 * {
     box-sizing: border-box;
@@ -158,4 +158,39 @@ nav ul li {
     font-weight: 800;
     font-size: 24px;
     padding-right: 1rem;
+}
+
+/* Call to Action */
+.call-to-action {
+    margin: 5rem auto;
+    background-color: var(--button-color);
+    width: 70%;
+    border-radius: 10px;
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.call-to-action div {
+    flex: 4 1 0;
+}
+.call-to-action h5 {
+    font-weight: 800;
+    color: var(--main-text);
+    font-size: 18px;
+    margin: 0.3rem 0;
+}
+.call-to-action p {
+    color: var(--main-text);
+    margin: 0.3rem 0;
+}
+.call-to-action button {
+    border: 2px solid var(--main-text);
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--main-text);
+    font-weight: bold;
+    flex: 1 1 0;
+    padding: 0.5rem;
 }
