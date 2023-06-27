@@ -98,3 +98,41 @@ nav ul li {
     min-height: 0;
     object-fit: cover;
 }
+
+/* INFORMATION */
+.info {
+    width: 85%;
+    margin: 2rem auto 6rem;
+}
+.info > h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--info-header-text);
+    margin: 3rem 0;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.images > div {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 10rem;
+    align-items: center;
+}
+.images > div p {
+    text-align: center;
+}
+.img-container {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid var(--button-color);
+}
+.images img {
+    width: 100%;
+}
