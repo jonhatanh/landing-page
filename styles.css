@@ -194,3 +194,12 @@ nav ul li {
     flex: 1 1 0;
     padding: 0.5rem;
 }
+
+/* Footer */
+footer {
+    background-color: var(--dark-background-color);
+    padding: 2rem;
+    color: var(--main-text);
+    text-align: center;
+    font-weight: 300;
+}
